@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik";
+}
+.header {
+  background-color: #3e8989;
+}
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.nav {
+  padding: 35px;
+}
+.nav__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__logo {
+  padding: 37px 0;
+}
+.nav__list {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+.nav__link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  margin-top: 36px;
+  margin-bottom: 37px;
+}
+.type {
+  width: 216px;
+  background: #fff;
+  color: #898989;
+  font-family: "Rubik";
+  font-size: 16px;
+  padding: 8px 0 8px 20px;
+  border-radius: 20px 0px 0px 20px;
+  outline: none;
+  border: none;
+}
+.search{
+  padding: 30px;
+}
+.btn {
+  width: 74px;
+  background: #295e5e;
+  border-radius: 0px 20px 20px 0px;
+  color: #fff;
+  font-family: "Rubik";
+  font-size: 14px;
+  font-weight: 400;
+  padding: 9px 14px;
+  border: none;
+  outline: none;
+}
+/* about us start */
+.pic {
+  background-image: url(../img/background.png);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pic__title {
+  color: #fff;
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 94px;
+}
+.pic__text {
+  color: #fff;
+  font-family: "Rubik";
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 47px;
+  padding-top: 20px;
+}
+.pic__link {
+  color: #fff;
+  background-color: #b4436c;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  font-style: normal;
+  border-radius: 30px;
+  text-decoration: none;
+  padding: 14px 77px;
+  margin-top: 50px;
+  transition: 0.5s;
+}
+.pic__link:hover {
+  color: #b4436c;
+  background-color: #fff;
+}
+.about_title {
+  color: #3e8989;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+.about_box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.box_p {
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+}
+.p-two {
+  margin-top: 20px;
+}
+.about_text {
+  display: flex;
+  flex-direction: column;
+  width: 545px;
+}
+/* abut us end */
+/* card start */
+.Catalog_title, .contact_title {
+  color: #3e8989;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+.Catalog_box {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.card1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pic1 {
+  background: #efefef;
+  padding: 0 32px;
+  width: 263px;
+  height: 310px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card_text {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  margin-top: 32px;
+}
+.card_text:hover {
+  color: #b4436c;
+}
+.contact_title {
+  display: flex;
+  justify-content: center;
+  color: #3e8989;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 80px;
+  
+}
+.contacts_box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  color: #000;
+  font-family: Rubik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  font-family: Rubik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+/* card end */
+/* footer start */
+.footer {
+  height: 150px;
+  background-color: #3e8989;
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 59px;
+  justify-content: center;
+  align-items: center;
+}
+.footer_text {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #fff;
+}
+
+.footer_ul {
+  display: flex;
+  gap: 30px;
+}
+
+.footer_p {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/* footer end */
+body::-webkit-scrollbar{
+  width: 17px;
+  background-color: #fff;
+}
+body::-webkit-scrollbar-thumb{
+background:linear-gradient( to top,#3e8989, #fff, #3e8989);
+  border-radius: 20px;
+}
+.menu img , .close img{
+  width: 50px;
+}
+.menu,.close{
+  display: none;
+}

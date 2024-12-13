@@ -1,0 +1,63 @@
+@media (max-width: 1120px) {
+  .Catalog_box {
+    overflow-x: scroll;
+  }
+  .card1 {
+    flex-shrink: 0;
+  
+}
+.Catalog_box::-webkit-scrollbar {
+  width: 17px;
+  background-color: #fff;
+}
+.Catalog_box::-webkit-scrollbar-thumb {
+  background: linear-gradient(to right , #3e8989, #fff, #3e8989);
+  border-radius: 20px;
+}
+.contacts_box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    max-width: 600px;
+    align-items: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.con_title{
+    max-width: 600px;
+}
+.nav__list{
+    position: absolute;
+    flex-direction: column;
+    top: 0;
+    left: -200px;
+    background-color: #3e8989;
+    height: 104vh;
+    padding: 70px;
+    text-align: center;
+    transition: 0.5s;
+}
+.menu,.close{
+    display: block;
+  }
+  .close{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+  .menu:focus ~ .nav__list{
+    left: 0;
+  }
+  .menu{
+    order: -1;
+  }
+  .about_box{
+display: grid;
+grid-template-rows: repeat(2,1fr);
+justify-content: center;
+  }
+  .about_text{
+    text-align: center;
+    padding-top: 30px;
+  }
+}
